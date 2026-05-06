@@ -11,7 +11,7 @@ const pontuacaoFinal = historicoDePontos.reduce(somarRodada, 0);
 
 function filtrarMissoesConcluidas(listaDeMissoes) {
     const verificarStatusDaMissao = function(missao) {
-        const foiFinalizada = missao.status === "concluida"; //=== igualdade  estrita
+        const foiFinalizada = missao.status === "Concluída"; //=== igualdade  estrita
         return foiFinalizada;
     };
 
