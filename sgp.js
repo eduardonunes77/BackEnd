@@ -42,7 +42,8 @@ const missoes = [
     {nome: "Salvar a aldeia", status:"Concluída"},
     {nome: "Encontrar o mapa", status:"Em andamento"},
     {nome: "Derrotar o Chefe", status:"Falhou"},
-    {nome: "Coletar recursos", status:"Concluída"},
+    {nome: "Coletar recursos", status:"Concluída"}
 ];
 
-console.log(missoes);
+const concluidas = filtrarMissoesConcluidas(missoes);
+console.log("Missões concluidas: ", concluidas);
